@@ -1,0 +1,45 @@
+body {
+  /* background-color: #333; */
+}
+
+.header p {
+  width: 150px;
+  margin: 20px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.spinBtn {
+}
+
+.wheel {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 40px;
+}
+.center-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 30px solid white;
+  position: absolute;
+  top: 50%;
+  right: -220%;
+  transform: translateY(-50%);
+}
